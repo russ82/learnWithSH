@@ -1,5 +1,8 @@
 package model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class UserId {						//userid 데이터타입 저장
 	private String id;
 	private String password;
@@ -64,7 +67,17 @@ public class UserId {						//userid 데이터타입 저장
 		return "UserId [id=" + id + ", password=" + password + ", name=" + name + ", phone=" + phone + ", email="
 				+ email + "]";
 	}
-
 	
+	public List<String> UserLineup(){
+		List<String> userlist = new ArrayList<String>();
+		
+		userlist.add(id);
+		userlist.add(password);
+		userlist.add(name);
+		userlist.add(phone);
+		userlist.add(email);
+		
+		return userlist;
+	}
 	
 }

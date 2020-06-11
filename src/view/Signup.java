@@ -22,7 +22,10 @@ public class Signup implements View {
 		
 		request.put("userId", signup);
 		
-		menuController.menuprocess();
+		
+		
+		
+		menuController.menuSignUp(signup.UserLineup());
 		
 	}
 
