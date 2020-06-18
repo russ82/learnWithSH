@@ -3,20 +3,20 @@ package view;
 public class Menu implements View {
 
 	public int choice() {
-		out.println(menuStr);
-		out.println("Choice : ");
+		System.out.println(menuStr);
+		System.out.println("Choice : ");
 		return scan.nextInt();
 	}
 	
 	@Override
 	public void show() {
 		
-		out.println("=====Menu=====");
-		out.println(menuStr);
-		out.print("Choice : ");
+		System.out.println("=====Menu=====");
+		System.out.println(menuStr);
+		System.out.println("Choice : ");
 		int no = scan.nextInt();
 		while(no<0 || no>3) {
-			out.println("다시 골라주세요");
+			System.out.println("다시 골라주세요");
 			no=choice();
 		}
 		

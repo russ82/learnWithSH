@@ -1,22 +1,22 @@
 package model;
 
-public class SysBook {								//user에 연결되야 하므로 implement로 해야되나...
+public class Book {								//user에 연결되야 하므로 implement로 해야되나...
 	private String name;
 	private String publisher;
 	private String author;
 	private int date;
 	private int price;
-	private String state;
+	private String condition;
 	
-	public SysBook() {};
+	public Book() {};
 
-	public SysBook(String name, String publisher, String author, int date, int price, String state) {
+	public Book(String name, String publisher, String author, int date, int price, String condition) {
 		this.name = name;
 		this.publisher = publisher;
 		this.author = author;
 		this.date = date;
 		this.price = price;
-		this.state = state;
+		this.condition = condition;
 	}
 
 	public String getName() {
@@ -60,17 +60,17 @@ public class SysBook {								//user에 연결되야 하므로 implement로 해야되나...
 	}
 
 	public String getState() {
-		return state;
+		return condition;
 	}
 
 	public void setState(String state) {
-		this.state = state;
+		this.condition = condition;
 	}
 
 	@Override
 	public String toString() {
 		return "Book [name=" + name + ", publisher=" + publisher + ", author=" + author + ", date=" + date + ", price="
-				+ price + ", state=" + state + "]";
+				+ price + ", state=" + condition + "]";
 	}
 	
 	

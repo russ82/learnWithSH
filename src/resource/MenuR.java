@@ -1,6 +1,5 @@
 package resource;
 
-import java.io.PrintStream;
 import java.util.Hashtable;
 import java.util.Scanner;
 
@@ -12,9 +11,7 @@ import view.Signup;
 
 public interface MenuR {
 	
-	PrintStream out = System.out;
-	
-	String menuStr = "1. 로그인 2. 회원가입 3. 나가기";
+	String menuStr = "1. 로그인  2. 회원가입  3. 나가기";
 	
 	Scanner scan = new Scanner(System.in);
 	

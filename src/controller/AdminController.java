@@ -1,10 +1,8 @@
 package controller;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -12,33 +10,46 @@ import java.util.Arrays;
 import java.util.List;
 
 import resource.AdminMenuR;
+import view.AdminView;
 
 public class AdminController implements AdminMenuR {
+	
 	public void adminprocess() {
 		
-		out.println("=====관리자 메뉴======");
+		System.out.println("=====관리자 메뉴======");
 		
 		//admin menu 구현
+		adminMenu.adminshow();
+		
+		AdminView view = null;
 		
 		//switch문 선택
-		/*switch((int)request.get("selectNo")){
+		switch((int)adminrequest.get("selectNo")){
 		case 1:
-			out.println("로그인 선택");
-			view = login;
+			System.out.println("책 삭제 선택");
+			bookDelete.adminshow();
 			break;
 		case 2:
-			out.println("회원가입 선택");
-			view = signup;
+			System.out.println("책 검색 선택");
+			view = bookSearch;
 			break;
 		case 3:
-			out.println("나가기");
-			view = exit;
+			System.out.println("유저 삭제 선택");
+			view = userDelete;
+			break;
+		case 4:
+			System.out.println("회원 설정 변경 선택");
+			view = userSetting;
+			break;
+		case 5:
+			System.out.println("나가기 선택");
+			exit.adminshow();
 			break;
 		default:
-			out.println("다시 선택해주세요");
-			menuprocess();	
-		}*/
-		
+			System.out.println("다시 선택해주세요");
+			adminprocess();	
+		}
+		view.adminshow();
 		
  }
 	public static void adminSearchBook(String title){

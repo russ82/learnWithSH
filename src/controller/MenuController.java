@@ -19,7 +19,7 @@ public class MenuController implements MenuR{
 	
 		public void menuprocess() {
 			
-			out.println("menucontroller 실행");
+			System.out.println("menucontroller 실행");
 			
 			menu.show();
 			
@@ -27,19 +27,19 @@ public class MenuController implements MenuR{
 			
 			switch((int)request.get("selectNo")){
 			case 1:
-				out.println("로그인 선택");
+				System.out.println("로그인 선택");
 				view = login;
 				break;
 			case 2:
-				out.println("회원가입 선택");
+				System.out.println("회원가입 선택");
 				view = signup;
 				break;
 			case 3:
-				out.println("나가기");
-				view = exit;
+				System.out.println("나가기 선택");
+				exit.show();
 				break;
 			default:
-				out.println("다시 선택해주세요");
+				System.out.println("다시 선택해주세요");
 				menuprocess();	
 			}
 			view.show();
@@ -87,7 +87,7 @@ public class MenuController implements MenuR{
 		        }
 		}
 		        
-		        public static List<List<String>> readCSV(String path){
+		public static List<List<String>> readCSV(String path){
 			        //반환용 리스트
 			        List<List<String>> ret = new ArrayList<List<String>>();
 			        BufferedReader br = null;

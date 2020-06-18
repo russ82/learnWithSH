@@ -1,28 +1,28 @@
 package view;
 
-import model.UserId;
+import controller.UserController;
 
-public class Login implements View {
+public class Login implements View {			//로그인 인터페이스로
 
 	@Override
 	public void show() {
-		out.println("======로그인=======");
-		UserId id = new UserId();
+		System.out.println("======로그인=======");
 		String username;
 		String userpassword;
+		UserController userlogin = new UserController();
 		
-		out.println("id : ");
+		System.out.println("id : ");
 		username = scan.next();
-		out.println("password : ");
+		System.out.println("password : ");
 		userpassword = scan.next();
 		
-		System.out.println(request.get(id));
-		out.println(request.equals("userId.id"));
-		out.println(request.equals("userId.password"));
-		out.println(request.get("userId"));
+		//usercontroller 호출
+		userlogin.loginprocess(username,userpassword);
 		
 		
-		menuController.menuprocess();
+		//if(admin) => admincontroller
+		//if(!admin) => usercontroller
+		
 	}
 
 }

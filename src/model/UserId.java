@@ -9,18 +9,31 @@ public class UserId {						//userid 데이터타입 저장
 	private String name;
 	private String phone;
 	private String email;
+	private String condition;
 	
+	public String getCondition() {
+		return condition;
+	}
+
+	public void setCondition(String condition) {
+		this.condition = condition;
+	}
+
 	public UserId() {}
 	
-	public UserId(String id, String password, String name, String phone, String email) {
+	public UserId(String id, String password, String name, String phone, String email, String condition) {
 		this.id = id;
 		this.password = password;
 		this.name = name;
 		this.phone = phone;
 		this.email = email;
+		if(condition == null) {
+			this.condition = "activated";
+		}
+		else {
+			this.condition = condition;
+		}
 	}
-	
-	//UserData.addUser(UserId);
 	
 	public String getId() {
 		return id;
