@@ -13,15 +13,11 @@ public class Login implements View {			//로그인 인터페이스로
 		
 		System.out.println("id : ");
 		username = scan.next();
+		
 		System.out.println("password : ");
 		userpassword = scan.next();
 		
-		//usercontroller 호출
 		userlogin.loginprocess(username,userpassword);
-		
-		
-		//if(admin) => admincontroller
-		//if(!admin) => usercontroller
 		
 	}
 

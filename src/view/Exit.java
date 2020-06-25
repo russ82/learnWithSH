@@ -6,7 +6,7 @@ public class Exit implements View, AdminView, UserView{
 	
 	@Override
 	public void show() {
-		System.out.println("=====메뉴 나가기======");
+		System.out.println("=====종료======");
 		System.exit(0);
 	}
 	

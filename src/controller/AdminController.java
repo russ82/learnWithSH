@@ -1,18 +1,14 @@
 package controller;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import resource.AdminMenuR;
 import view.AdminView;
 
 public class AdminController implements AdminMenuR {
+	
+	csvController csv = new csvController();
+	List<List<String>> allUser = csv.readCSV("userInfo.csv");
 	
 	public void adminprocess() {
 		
@@ -52,45 +48,44 @@ public class AdminController implements AdminMenuR {
 		view.adminshow();
 		
  }
-	public static void adminSearchBook(String title){
-        //반환용 리스트
-        List<List<String>> ret = new ArrayList<List<String>>();
-        BufferedReader br = null;
-        
-        try{
-            br = Files.newBufferedReader(Paths.get("C:\\Users\\jin\\test.csv"));
-            //Charset.forName("UTF-8");
-            String line = "";
-            
-            while((line = br.readLine()) != null){
-            	int count =0;
-            	
-                //CSV 1행을 저장하는 리스트
-                List<String> tmpList = new ArrayList<String>();
-                String array[] = line.split(",");
-                //배열에서 리스트 반환
-                tmpList = Arrays.asList(array);
-                if (tmpList.contains(title)) {
-                	System.out.print(count);
-                	System.out.println(tmpList);
-                	ret.add(tmpList);
-                }
-                count++;
-            }
-        }catch(FileNotFoundException e){
-            e.printStackTrace();
-        }catch(IOException e){
-            e.printStackTrace();
-        }finally{
-            try{
-                if(br != null){
-                    br.close();
-                }
-            }catch(IOException e){
-                e.printStackTrace();
-            }
-        }
-    }
 	
+	public void userDelete(String userId) {
+	
+		for (List<String> u: allUser) {
+			if (u.get(0).equals(userId) && u.get(5).equals("deactivated")) {
+				csv.admindeleteCSV("userInfo.csv", userId, "user");
+				csv.admindeleteCSV("bookInfo.csv", userId, "book");
+				break;
+			}
+		}
+		
+	}
+	
+	public void userSetting(String userId) {
+		
+		int index = 0;
+		List<List<String>> allUser = csv.readCSV("userInfo.csv");
+		for (List<String> u: allUser) {
+			if (u.get(0).equals(userId)) {
+				break;
+			}
+			index++;
+		}
+		List<String> removableUser = allUser.get(index);
+		removableUser.set(5, "deactivated");
+		allUser.set(index, removableUser);
+		
+		csv.writeCSV("userInfo.csv", allUser);
+		userList();
+	}
+	
+	public void userList() {
+		List<List<String>> allUser = csv.readCSV("userInfo.csv");
+		
+		for (List<String> user: allUser) {
+			System.out.println(user);
+		}
+		
+	}
 	
 }

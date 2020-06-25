@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.4" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="main.Market" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/main/Market.java" binary="false" label="market" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="187" y="0"/>    
+    <execution id="2">      
+      <position height="63" width="63" x="5" y="99"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="view.View" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/View.java" binary="false" label="view" type="interface" autoSize="true">    
+    <position height="-1" width="-1" x="115" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="51" x="72" y="120"/>    
+    </execution>    
+    <execution id="6">      
+      <position height="63" width="51" x="72" y="160"/>    
+    </execution>  
+  </object>  
+  <object id="9" language="java" name="view.Menu" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/Menu.java" binary="false" label="menu" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="157" y="0"/>    
+    <execution id="8">      
+      <position height="21" width="54" x="127" y="181"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="63" width="54" x="127" y="227"/>    
+    </execution>    
+    <execution id="13">      
+      <position height="21" width="54" x="127" y="641"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="21" width="54" x="127" y="746"/>    
+    </execution>  
+  </object>  
+  <object id="15" language="java" name="view.Signup" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/Signup.java" binary="false" label="signup" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="430" y="0"/>    
+    <execution id="12">      
+      <position height="21" width="62" x="185" y="248"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="63" width="62" x="185" y="303"/>    
+    </execution>  
+  </object>  
+  <object id="19" language="java" name="controller.UserController" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/controller/UserController.java" binary="false" label="userController" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="451" y="0"/>    
+    <execution id="18">      
+      <position height="21" width="106" x="251" y="324"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="63" width="106" x="251" y="369"/>    
+    </execution>  
+  </object>  
+  <object id="23" language="java" name="model.UserId" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/model/UserId.java" binary="false" label="userId" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="607" y="0"/>    
+    <execution id="22">      
+      <position height="21" width="60" x="361" y="390"/>    
+    </execution>    
+    <execution id="24">      
+      <position height="63" width="60" x="361" y="438"/>    
+    </execution>  
+  </object>  
+  <object id="27" language="java" name="controller.actionAddUser" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/controller/actionAddUser.java" binary="false" label="actionAddUser" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="485" y="0"/>    
+    <execution id="26">      
+      <position height="21" width="107" x="425" y="459"/>    
+    </execution>    
+    <execution id="28">      
+      <position height="63" width="107" x="425" y="509"/>    
+    </execution>  
+  </object>  
+  <object id="31" language="java" name="controller.csvController" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/controller/csvController.java" binary="false" label="csvController" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="699" y="0"/>    
+    <execution id="30">      
+      <position height="21" width="99" x="536" y="530"/>    
+    </execution>    
+    <execution id="32">      
+      <position height="63" width="99" x="536" y="620"/>    
+    </execution>    
+    <execution id="34">      
+      <position height="63" width="99" x="536" y="725"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="show():void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="7" operation="Menu()" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="11" operation="Signup()" asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="17" 
+    operation="addUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="21" 
+    operation="UserId(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>  
+  <message id="25" operation="actionaddUser(model.UserId):void" asynchronous="false">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="26"/>  
+  </message>  
+  <message id="29" operation="appendCSV(java.lang.String,java.util.List&lt;java.lang.String&gt;):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="30"/>  
+  </message>  
+  <message id="33" operation="Menu()" asynchronous="false">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="35" operation="Menu()" asynchronous="false">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>
+</sequence-diagram>

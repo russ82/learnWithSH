@@ -1,27 +1,23 @@
 package controller;
 
-import java.util.ArrayList;
-
-import model.UserId;
+import java.util.List;
 
 public class actionLogin {
-
+	
 	public boolean ActionLogin(String id, String password) {
-		//csv에서 읽어오기
 		
+		csvController csv = new csvController();
+		List<List<String>> UserInfo = csv.readCSV("userInfo.csv");
 		
-		ArrayList<UserId> user = new ArrayList<UserId>();
-		
-		//for validation
 		boolean flag = false;
-		    for(UserId usr:user){
-		        if(usr.getId() == id && usr.getPassword() == password){
-		         //enter print code here
-		          flag = true;
-		        }            
-		    }
+		
+		for(List<String> loginUser: UserInfo) {
+			if (loginUser.get(0).equals(id) && loginUser.get(1).equals(password) && loginUser.get(5).equals("activated")) {
+				flag = true;
+				break;
+			}
+		}
 		return flag;
 	}
-	
 	
 }

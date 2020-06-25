@@ -1,6 +1,5 @@
 package controller;
 
-import email.EmailAdmin;
 import model.UserId;
 import resource.UserMenuR;
 import view.UserView;
@@ -36,6 +35,10 @@ public class UserController implements UserMenuR{
 					view = userPurchase;
 					break;
 				case 5:
+					System.out.println("책 검색 선택");
+					bookSearch.usershow();
+					break;
+				case 6:
 					System.out.println("나가기 선택");
 					exit.usershow();
 					break;
@@ -49,19 +52,18 @@ public class UserController implements UserMenuR{
 	}
 	
 	//useraddaction process
-	public void addUser(UserId user) {
+	public void addUser(String id, String password, String name, String phone, String email) {
+		String condition = "activated";
+		UserId user = new UserId(id, password, name, phone, email, condition);
 		
-		actionAddUser adduser = new actionAddUser(user);
-		
+		actionAddUser adduser = new actionAddUser();
+		adduser.actionaddUser(user);
 		
 	}
 	
-	public void bookPurchase() {}
-	
 	public void purchaseEmail(String seller, String buyer) {
-		EmailAdmin email = new EmailAdmin();
-		
-		email.EmailSend(seller,buyer);
+		EmailController email = new EmailController();
+		email.EmailSend(seller, buyer);
 		
 	}
 	
@@ -71,19 +73,11 @@ public class UserController implements UserMenuR{
 		AdminController admin = new AdminController();
 		actionLogin actionlogin = new actionLogin();
 		
-		/*if(actionlogin.ActionLogin(id,password) == true) {
-			System.out.println("=====사용자 로그인 성공=====");
-			userprocess();
-		}*/
 		if(id.equals("admin") && password.equals("nayana")) {
 			System.out.println("관리자 성공");
 			admin.adminprocess();
 		}
-		else if(actionlogin.ActionLogin(id,password) == true && id=="admin" && password == "nayana") {
-			System.out.println("====관리자 로그인 성공====");
-			admin.adminprocess();
-		}
-		else if(id.equals("user") && password.equals("haha")) {
+		else if(actionlogin.ActionLogin(id, password)) {
 			System.out.println("사용자 성공");
 			user.userprocess();
 		}

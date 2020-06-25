@@ -23,7 +23,6 @@ public class Menu implements View {
 		//LoginR에 입력받은 번호를 넣어주고 다시 Controller실행
 		request.put("selectNo", no);
 		
-		//userController.loginprocess();
 	}
 
 }

@@ -1,38 +1,54 @@
 package view;
 
-public class BookRevise implements UserView{
+import java.util.List;
 
+public class BookRevise implements UserView{
+	
 	public void usershow() {
-		//bookinfo book = new bookinfo();
-		String revise, bookid;
+		String userid, retitle;
 		String title, publisher, author, condition;
-		int price, year;
+		int isbn, price, year;
 		System.out.println("====책 정보 수정====");
 		
 		//책 리스트 print
-		//bookcontroller.booklist(userid);
+		System.out.println("id를 입력해주세요");						//next -> nextline되면 nextline한번 더 써주기
+		userid = scanuser.next();
+		scanuser.nextLine();
 		
-		System.out.println("원하는 수정할 책을 선택해주세요 : ");
-		bookid = scanuser.next();
+		for(List<String> book :bookController.bookList(userid)) {
+			System.out.println(book);
+		}
+		
+		System.out.println("수정할 책의 제목을 입력해주세요 : ");
+		retitle = scanuser.nextLine();
 		
 		System.out.println("책의 내용을 수정해주세요");
-	
-		System.out.println("제목 : ");
-		title = scanuser.next();
+		
+		System.out.println("제목 :");
+		title = scanuser.nextLine();
+		
+		System.out.println("isbn : ");
+		isbn = scanuser.nextInt();
+		scanuser.nextLine();
+		
 		System.out.println("출판사 : ");
-		publisher = scanuser.next();
-		//bookinfo.settitle
+		publisher = scanuser.nextLine();
+		
 		System.out.println("저자 정보 : ");
-		author = scanuser.next();
+		author = scanuser.nextLine();
+		
 		System.out.println("출판 년도  : ");
 		year = scanuser.nextInt();
+		
 		System.out.println("가격 : ");					//최대 5만원으로
 		price = scanuser.nextInt();
-		System.out.println("상태 : ");
-		condition = scanuser.next();
+		scanuser.nextLine();
+		
+		System.out.println("상태 (excellent or good or fair) : ");
+		condition = scanuser.nextLine();
 		
 		//책 search
-		//bookcontroller.bookrevise(book);
+		bookController.bookRevise(userid, retitle, title, isbn, publisher, author, year, price, condition);
 		
 		userController.userprocess();
 	}

@@ -11,8 +11,7 @@ public class UserDelete implements AdminView{
 		user = scanadmin.next();
 		
 		//책과 사용자 삭제
-		//usercontroller.userdelete(userid);
-		//bookcontroller.bookdelete(bookid,userid);
+		adminController.userDelete(user);
 		adminController.adminprocess();
 	}
 	

@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="view.AdminView" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/AdminView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="113" x="2295" y="1601"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="view.AdminMenu" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/AdminMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="113" x="2488" y="1120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="view.BookDelete" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/BookDelete.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="113" x="1938" y="1120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="view.BookRevise" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/BookRevise.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="107" x="1391" y="1120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="view.BookSearch" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/BookSearch.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="183" x="2091" y="1120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="view.BookRegister" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/BookRegister.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="107" x="1244" y="1120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="view.Exit" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/Exit.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="113" x="1091" y="1120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="view.Login" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/Login.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="87" x="402" y="1120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="view.Menu" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/Menu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="87" x="529" y="1120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="view.Signup" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/Signup.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="87" x="275" y="1120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="view.UserDelete" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/UserDelete.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="2335" y="1120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="view.UserMenu" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/UserMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="107" x="1791" y="1120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="view.UserPurchase" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/UserPurchase.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="107" x="944" y="1120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="view.UserSetting" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/UserSetting.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="2641" y="1120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="15" language="java" name="view.UserView" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/UserView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="107" x="1503" y="1601"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="16" language="java" name="view.View" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/View.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="103" x="402" y="1601"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="17" language="java" name="resource.MenuR" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/resource/MenuR.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="191" x="44" y="1120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="18" language="java" name="resource.AdminMenuR" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/resource/AdminMenuR.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="219" x="2295" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="19" language="java" name="main.Market" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/main/Market.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="44" y="927"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="controller.UserController" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/controller/UserController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="250" x="1143" y="927"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="controller.MenuController" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/controller/MenuController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="174" x="197" y="927"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="controller.csvController" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/controller/csvController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="226" x="1143" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="controller.BookController" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/controller/BookController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="338" x="1143" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="controller.AdminController" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/controller/AdminController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="172" x="1719" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="controller.actionAddUser" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/controller/actionAddUser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="158" x="656" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="email.EmailAdmin" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/email/EmailAdmin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="173" x="150" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="controller.EmailController" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/controller/EmailController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="141" x="150" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="28" language="java" name="resource.UserMenuR" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/resource/UserMenuR.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="213" x="1538" y="1120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="29" language="java" name="model.UserId" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/model/UserId.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="441" width="248" x="656" y="1120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="30">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <realization id="31">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="32">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="33">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="34">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <realization id="35">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <dependency id="36">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <realization id="37">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="38">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <dependency id="39">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <dependency id="40">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <realization id="41">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <dependency id="42">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <realization id="43">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <dependency id="44">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <association id="45">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="46" name="csv">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="47" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="48">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <realization id="49">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="50">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="51">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="29"/>  
+  </dependency>  
+  <dependency id="52">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <realization id="53">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <dependency id="54">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <dependency id="55">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="56">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <realization id="57">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <dependency id="58">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="59">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="60">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <realization id="61">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <dependency id="62">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <realization id="63">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <dependency id="64">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <association id="65">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="66" name="csv">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="67" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="68">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <realization id="69">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <dependency id="70">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="71">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="72">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="73">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <dependency id="74">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="75">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <generalization id="76">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="28"/>  
+  </generalization>  
+  <dependency id="77">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <realization id="78">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <dependency id="79">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <dependency id="80">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <realization id="81">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="28"/>  
+  </realization>  
+  <realization id="82">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="83">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="84">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <dependency id="85">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="86">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="26"/>  
+  </generalization>  
+  <dependency id="87">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="88">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="89">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="90">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <realization id="91">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="92">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="93">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <dependency id="94">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <realization id="95">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <generalization id="96">    
+    <bendpoint x="2304" y="1120"/>    
+    <bendpoint x="2304" y="927"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <dependency id="97">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="98">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="99">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="100">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="101">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="102">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="103">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="104">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <realization id="105">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <realization id="106">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <dependency id="107">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="108">    
+    <bendpoint x="665" y="626"/>    
+    <bendpoint x="665" y="927"/>    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="29"/>  
+  </dependency>  
+  <dependency id="109">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="110">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="111">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="112">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="113">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="114">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="115">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="116">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="117">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="118">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="119">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <generalization id="120">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <dependency id="121">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="122">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

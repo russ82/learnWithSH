@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.4" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="view.AdminMenu" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/AdminMenu.java" binary="false" label="adminMenu" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="252" y="0"/>    
+    <execution id="2">      
+      <position height="63" width="90" x="5" y="129"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="view.UserDelete" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/view/UserDelete.java" binary="false" label="userDelete" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="265" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="86" x="99" y="150"/>    
+    </execution>    
+    <execution id="6">      
+      <position height="63" width="86" x="99" y="204"/>    
+    </execution>  
+  </object>  
+  <object id="9" language="java" name="controller.AdminController" project="testUML Used Book Marketplace" 
+    file="/Used Book Marketplace/src/controller/AdminController.java" binary="false" label="adminController" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="390" y="0"/>    
+    <execution id="8">      
+      <position height="21" width="115" x="189" y="225"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="63" width="115" x="189" y="281"/>    
+    </execution>  
+  </object>  
+  <object id="13" language="java" name="controller.csvController" project="Used Book Marketplace" 
+    file="/Used Book Marketplace/src/controller/csvController.java" binary="false" label="csvController" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="498" y="0"/>    
+    <execution id="12">      
+      <position height="21" width="99" x="308" y="302"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="UserDelete()" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="7" operation="userDelete(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="11" operation="admindeleteCSV(java.lang.String,java.lang.String,java.lang.String):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>
+</sequence-diagram>
